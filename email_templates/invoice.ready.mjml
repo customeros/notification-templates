@@ -22,7 +22,7 @@
 
     <mj-section padding="20px" background-color="#ffffff">
       <mj-column>
-        <mj-image align="left" width="250px" src={{tenantLogo}}></mj-image>
+        <mj-image align="left" width="250px" src="cid:provider-logo-file-encoded"></mj-image>
         <mj-text>
           <p>Hi {{organizationName}},</p>
           <p>Attached is your invoice for {{currencySymbol}}{{amtDue}}.</p>
