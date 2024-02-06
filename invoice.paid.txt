@@ -1,0 +1,7 @@
+Hi {{userFirstName}},
+
+Attached is your paid invoice {{invoiceNumber}} for {{currencySymbol}}{{amtDue}}.
+
+No action is required as the balance was automatically paid on {{paymentDate}}. Thank you for your continued trust.
+
+Have a great day!

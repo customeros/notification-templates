@@ -1,0 +1,9 @@
+Hi {{organizationName}},
+
+Attached is your invoice for {{currencySymbol}}{{amtDue}}.
+
+You can either pay for this online or, if available, use the alternative payment methods provided in the attached invoice.
+
+Pay online: {{paymentLink}}
+
+Have a great day!
