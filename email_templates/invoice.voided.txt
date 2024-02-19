@@ -1,0 +1,7 @@
+Hi {{userFirstName}},
+
+Your invoice {{invoiceNumber}} for {{currencySymbol}}{{amtDue}} sent on {{issueDate}} was voided and no payment is required.
+
+If you have any questions, please reply to this email.
+
+Have a great day!
