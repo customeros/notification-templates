@@ -6,14 +6,16 @@
     </mj-attributes>
     <mj-style>
     .hover-blue a {
-        border: solid 1px #D0D5DD!important;
-        border-radius: 8px!important;
-        background: #F9FAFB!important;
+        background: #D0D8DF!important;
         color: #344054!important;
+        box-shadow:0 0 0 1px #C0C5CD;
     }
       .hover-blue a:hover {
-       background: white!important;
+       background: #EAEBF0!important;
        color:  #667085!important;
+       box-shadow: 0 1px 0 #EFF0F5 inset, 
+      						 0 -1px 0 #DADBE0 inset,
+      						 0 0 0 1px #C0C5CD;
      }
      </mj-style>
   </mj-head>
@@ -29,7 +31,7 @@
           <p>You can either <a href="{{paymentLink}}">pay for this online</a> or, if available, use the alternative payment methods provided in the attached invoice.</p>
         </mj-text>
         
-        <mj-button align="left" href="{{paymentLink}}" background-color="transparent" color="black" padding="0px 20px" css-class="hover-blue">
+        <mj-button align="left" href="{{paymentLink}}" background-color="#D0D8DF" color="#344054" padding="0px 20px" css-class="hover-blue">
           Pay online
         </mj-button>
         
