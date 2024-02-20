@@ -26,10 +26,10 @@
         <mj-text>
           <p>Hi {{organizationName}},</p>
           <p>Attached is your invoice for {{currencySymbol}}{{amtDue}}.</p>
-          <p>You can either pay for this online or, if available, use the alternative payment methods provided in the attached invoice.</p>
+          <p>You can either <a href="{{paymentLink}}">pay for this online</a> or, if available, use the alternative payment methods provided in the attached invoice.</p>
         </mj-text>
         
-        <mj-button align="left" href="{{paymentLink}}" background-color="transparent" padding="0px 20px" css-class="hover-blue">
+        <mj-button align="left" href="{{paymentLink}}" background-color="transparent" color="black" padding="0px 20px" css-class="hover-blue">
           Pay online
         </mj-button>
         
