@@ -10,7 +10,7 @@
 
     <mj-section padding="20px" background-color="#ffffff">
       <mj-column>
-        <mj-image align="left" width="250px" src="cid:provider-logo-file-encoded"></mj-image>
+        <mj-image align="left" width="50px" src="cid:provider-logo-file-encoded"></mj-image>
         <mj-text>
           <p>Hi {{userFirstName}},</p>
           <p>Attached is your <b>paid invoice</b> {{invoiceNumber}} for {{currencySymbol}}{{amtDue}}.</p>
