@@ -1,0 +1,24 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Barlow" href="https://fonts.googleapis.com/css2?family=Barlow:400"></mj-font>
+    <mj-attributes>
+      <mj-text font-family="Barlow, sans-serif" font-weight="400" font-size="14px" color="#344054" line-height="20px"></mj-text>
+    </mj-attributes>
+  </mj-head>
+  
+  <mj-body>
+
+    <mj-section padding="20px" background-color="#ffffff">
+      <mj-column>
+        <mj-image align="left" width="250px" src="cid:provider-logo-file-encoded"></mj-image>
+        <mj-text>
+          <p>Hi {{userFirstName}},</p>
+          <p>The webhook for {{webhookName}} is currently offline and not receiving data.</p>
+          <p>Please check your systems and confirm the webhook URL {{webhookURL}} is still valid and able to receive data.</p>
+          <p>Let us know if you need to update the endpoint or if you have any trouble getting it back online.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    
+  </mj-body>
+</mjml>

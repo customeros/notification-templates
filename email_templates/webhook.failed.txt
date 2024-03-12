@@ -1,0 +1,8 @@
+Hi {{userFirstName}},
+
+The webhook for {{webhookName}} is currently offline and not receiving data.
+
+Please check your systems and confirm the webhook URL {{webhookURL}} is still valid and able to receive data.
+
+Let us know if you need to update the endpoint or if you have any trouble getting it back online.
+
