@@ -1,0 +1,15 @@
+<mjml>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          <p>On {{reminderCreatedAt}} you asked us to remind you about:</p>
+          <p><i>{{reminderContent}}</i></p>
+              <p>See your reminder in <a href="{{orgLink}}">{{orgName}}’s profile</a></p>
+          <p>Have a great day!</p>
+          <p>The CustomerOS Team</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
