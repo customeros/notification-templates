@@ -1,0 +1,42 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Barlow" href="https://fonts.googleapis.com/css2?family=Barlow:400"></mj-font>
+    <mj-attributes>
+      <mj-text font-family="Barlow, sans-serif" font-weight="400" font-size="14px" color="#344054" line-height="20px"></mj-text>
+    </mj-attributes>
+    <mj-style>
+    .hover-blue a {
+        background: #D0D8DF!important;
+        color: #344054!important;
+        box-shadow:0 0 0 1px #C0C5CD;
+    }
+      .hover-blue a:hover {
+       background: #EAEBF0!important;
+       color:  #667085!important;
+       box-shadow: 0 1px 0 #EFF0F5 inset, 
+      						 0 -1px 0 #DADBE0 inset,
+      						 0 0 0 1px #C0C5CD;
+     }
+     </mj-style>
+  </mj-head>
+  
+  <mj-body>
+
+    <mj-section padding="20px" background-color="#ffffff">
+      <mj-column>
+        <mj-image align="left" width="50px" src="cid:provider-logo-file-encoded"></mj-image>
+        <mj-text>
+          <p>Hi {{organizationName}},</p>
+          <p>Attached is your invoice for {{currencySymbol}}{{amtDue}}.</p>
+          <p>Our payment details are provided in the attached invoice.</p>
+        </mj-text>
+        
+        <mj-text>
+          <p>Have a great day!</p>
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
+    
+  </mj-body>
+</mjml>

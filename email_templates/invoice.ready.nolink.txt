@@ -1,0 +1,7 @@
+Hi {{organizationName}},
+
+Attached is your invoice for {{currencySymbol}}{{amtDue}}.
+
+Our payment details are provided in the attached invoice.
+
+Have a great day!
