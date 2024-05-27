@@ -1,0 +1,7 @@
+Hi {{userFirstName}},
+
+We have received your payment for invoice {{invoiceNumber}}. No further action is required.
+
+Thank you for your payment.
+
+Have a great day!
