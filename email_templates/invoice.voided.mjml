@@ -1,24 +1,36 @@
 <mjml>
-  <mj-head>
-    <mj-font name="Barlow" href="https://fonts.googleapis.com/css2?family=Barlow:400"></mj-font>
-    <mj-attributes>
-      <mj-text font-family="Barlow, sans-serif" font-weight="400" font-size="14px" color="#344054" line-height="20px"></mj-text>
-    </mj-attributes>
-  </mj-head>
-  
-  <mj-body>
+    <mj-head>
+        <mj-font name="Barlow" href="https://fonts.googleapis.com/css2?family=Barlow:400"></mj-font>
+        <mj-attributes>
+            <mj-text font-family="Barlow, sans-serif" font-weight="400" font-size="14px" color="#344054" line-height="20px"></mj-text>
+        </mj-attributes>
+    </mj-head>
 
-    <mj-section padding="20px" background-color="#ffffff">
-      <mj-column>
-        <mj-image align="left" width="50px" src="cid:provider-logo-file-encoded"></mj-image>
-        <mj-text>
-          <p>Hi {{userFirstName}},</p>
-          <p>Your invoice {{invoiceNumber}} for {{currencySymbol}}{{amtDue}} sent on {{issueDate}} was <b>voided</b> and no payment is required.</p>
-          <p>If you have any questions, please reply to this email.</p>
-          <p>Have a great day!</p>
-        </mj-text>
-      </mj-column>
-    </mj-section>
-    
-  </mj-body>
+    <mj-body>
+
+        <mj-section padding="20px 20px 0px 20px" background-color="#ffffff">
+            <mj-column>
+                <mj-image align="left" width="50px" src="cid:provider-logo-file-encoded"></mj-image>
+                <mj-text>
+                    <p>Hi {{userFirstName}},</p>
+                    <p>Your invoice {{invoiceNumber}} for {{currencySymbol}}{{amtDue}} sent on {{issueDate}} was <b>voided</b> and no payment is required.
+                    </p>
+                    <p>If you have any questions, please reply to this email.</p>
+                    <p>Have a great day!</p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding="2px 20px 0px 20px">
+            <mj-column>
+                <mj-text font-size="12px" font-weight="normal" font-family="Barlow, sans-serif" font-weight="400" color="rgb(102, 112, 133)" line-height="32px">
+                    <img width="16px" src="cid:customer-os-encoded" alt="CustomerOS" style="vertical-align: middle;margin-right: 5px;margin-bottom: 2px;"/>
+                    Powered by <a href="https://customeros.ai/?utm_content=invoice_footer&utm_medium=invoice_email" style="text-decoration: underline; color: rgb(102, 112, 133);">
+                    CustomerOS
+                </a> - Revenue Intelligence for B2B hyperscalers
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+    </mj-body>
 </mjml>

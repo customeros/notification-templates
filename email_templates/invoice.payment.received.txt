@@ -5,3 +5,6 @@ We have received your payment for invoice {{invoiceNumber}}. No further action i
 Attached is your paid invoice {{invoiceNumber}} for {{currencySymbol}}{{amtDue}}.
 
 Have a great day!
+
+Powered by CustomerOS - Revenue Intelligence for B2B hyperscalers
+https://customeros.ai/?utm_content=invoice_footer&utm_medium=invoice_email

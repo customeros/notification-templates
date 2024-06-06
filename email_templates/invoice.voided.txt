@@ -5,3 +5,6 @@ Your invoice {{invoiceNumber}} for {{currencySymbol}}{{amtDue}} sent on {{issueD
 If you have any questions, please reply to this email.
 
 Have a great day!
+
+Powered by CustomerOS - Revenue Intelligence for B2B hyperscalers
+https://customeros.ai/?utm_content=invoice_footer&utm_medium=invoice_email

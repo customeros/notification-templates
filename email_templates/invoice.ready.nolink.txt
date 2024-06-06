@@ -5,3 +5,6 @@ Attached is your invoice for {{currencySymbol}}{{amtDue}}.
 Our payment details are provided in the attached invoice.
 
 Have a great day!
+
+Powered by CustomerOS - Revenue Intelligence for B2B hyperscalers
+https://customeros.ai/?utm_content=invoice_footer&utm_medium=invoice_email
