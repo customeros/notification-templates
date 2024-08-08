@@ -1,0 +1,63 @@
+<mjml>
+    <mj-head>
+        <mj-font name="Barlow" href="https://fonts.googleapis.com/css2?family=Barlow:400"></mj-font>
+        <mj-attributes>
+            <mj-text font-family="Barlow, sans-serif" font-weight="400" font-size="14px" color="#344054" line-height="20px"></mj-text>
+        </mj-attributes>
+        <mj-style>
+            .hover-blue a {
+                background: #D0D8DF !important;
+                color: #344054 !important;
+                box-shadow: 0 0 0 1px #C0C5CD;
+            }
+
+            .hover-blue a:hover {
+                background: #EAEBF0 !important;
+                color: #667085 !important;
+                box-shadow: 0 1px 0 #EFF0F5 inset,
+                0 -1px 0 #DADBE0 inset,
+                0 0 0 1px #C0C5CD;
+            }
+        </mj-style>
+    </mj-head>
+
+    <mj-body>
+
+        <mj-section padding="20px 20px 0px 20px" background-color="#ffffff">
+            <mj-column>
+                <mj-image align="left" width="50px" src="cid:provider-logo-file-encoded"></mj-image>
+                <mj-text>
+                    <p>Hi {{organizationName}},</p>
+                    <p>I wanted to follow up regarding invoice {{invoiceNumber}}, which was due on {{dueDate}} for the amount of {{currencySymbol}}{{amtDue}}.</p>
+                    <p>Just to remind you, I've attached the invoice again. You can either <a href="{{paymentLink}}">pay for this online</a> or, if available, use the alternative payment methods provided in the attached invoice.</p>
+                    <p>Please let me know if you have any questions or need any assistance with processing the payment.</p>
+                </mj-text>
+
+                <mj-button align="left" href="{{paymentLink}}" background-color="#D0D8DF" color="#344054" padding="0px 20px" css-class="hover-blue">
+                    Pay online
+                </mj-button>
+
+                <mj-text>
+                    <p>Have a great day!</p>
+                </mj-text>
+                
+                <mj-text>
+                    <p>{{billingOwner}}</p>
+                </mj-text>
+
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding="2px 20px 0px 20px">
+            <mj-column>
+                <mj-text font-size="12px" font-weight="normal" font-family="Barlow, sans-serif" font-weight="400" color="rgb(102, 112, 133)" line-height="32px">
+                    <img width="16px" src="cid:customer-os-encoded" alt="CustomerOS" style="vertical-align: middle;margin-right: 5px;margin-bottom: 2px;"/>
+                    Powered by <a href="https://customeros.ai/?utm_content=invoice_footer&utm_medium=invoice_email" style="text-decoration: underline; color: rgb(102, 112, 133);">
+                    CustomerOS
+                </a> - Revenue Intelligence for B2B hyperscalers
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+    </mj-body>
+</mjml>

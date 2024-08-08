@@ -1,0 +1,16 @@
+Hi {{organizationName}},
+
+I wanted to follow up regarding invoice {{invoiceNumber}}, which was due on {{dueDate}} for the amount of {{currencySymbol}}{{amtDue}}.
+
+Just to remind you, I've attached the invoice again with our payment details included.
+
+You can also pay this online: {{paymentLink}}
+
+Please let me know if you have any questions or need any assistance with processing the payment.
+
+Have a great day!
+
+{{billingOwner}}
+
+Powered by CustomerOS - Revenue Intelligence for B2B hyperscalers
+https://customeros.ai/?utm_content=invoice_footer&utm_medium=invoice_email
