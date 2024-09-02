@@ -6,5 +6,8 @@ No action is required as the balance was automatically paid on {{paymentDate}}. 
 
 Have a great day!
 
+{{stripeFooterTxt}}
+{{stripeFooterLink}}
+
 Powered by CustomerOS - Revenue Intelligence for B2B hyperscalers
 https://customeros.ai/?utm_content=invoice_footer&utm_medium=invoice_email

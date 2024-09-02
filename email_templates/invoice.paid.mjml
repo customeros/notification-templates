@@ -19,6 +19,7 @@
                         <b>No action is required</b>
                         as the balance was automatically paid on {{paymentDate}}. Thank you for your continued trust.
                     <p>Have a great day!</p>
+                    <p>{{stripeFooterHtml}}</p>
                 </mj-text>
             </mj-column>
         </mj-section>
