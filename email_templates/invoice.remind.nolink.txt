@@ -1,0 +1,12 @@
+Hi {{organizationName}},
+
+We’re reaching out regarding invoice #{{invoiceNumber}}, which shows a balance of {{currencySymbol}}{{amtDue}}. Please find the attached invoice for your reference.
+
+Our payment details are provided in the attached invoice.
+
+Please feel free to reach out if there are any issues.
+
+Kind regards
+
+Powered by CustomerOS - Revenue Intelligence for B2B hyperscalers
+https://customeros.ai/?utm_content=invoice_footer&utm_medium=invoice_email
