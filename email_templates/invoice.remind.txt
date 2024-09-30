@@ -1,0 +1,17 @@
+Hi {{organizationName}},
+
+We’re reaching out regarding invoice #{{invoiceNumber}}, which shows a balance of {{currencySymbol}}{{amtDue}}. Please find the attached invoice for your reference.
+
+You can either pay for this online or, if available, use the alternative payment methods provided in the attached invoice.
+
+Pay online: {{paymentLink}}
+
+Please feel free to reach out if there are any issues.
+
+Kind regards
+
+{{stripeFooterTxt}}
+{{stripeFooterLink}}
+
+Powered by CustomerOS - Revenue Intelligence for B2B hyperscalers
+https://customeros.ai/?utm_content=invoice_footer&utm_medium=invoice_email
