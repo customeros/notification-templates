@@ -1,0 +1,10 @@
+Hi {{userFirstName}},
+
+You have new mail!
+
+You can find your new email from {{orgName}} here: {{orgLink}}
+
+Have a great day!
+
+Powered by CustomerOS - Revenue Intelligence for B2B hyperscalers
+https://customeros.ai/?utm_content=email_notification_footer&utm_medium=invoice_email
