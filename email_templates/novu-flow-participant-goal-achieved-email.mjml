@@ -1,14 +1,39 @@
 <mjml>
-  <mj-body>
-    <mj-section>
-      <mj-column>
-        <mj-text>
+<!--  <mj-head>-->
+<!--    <mj-font name="Barlow" href="https://fonts.googleapis.com/css2?family=Barlow:400"></mj-font>-->
+<!--    <mj-attributes>-->
+<!--      <mj-text font-family="Barlow, sans-serif" font-weight="400" font-size="14px" color="#344054" line-height="20px"></mj-text>-->
+<!--    </mj-attributes>-->
+<!--  </mj-head>-->
+  <mj-body  background-color="#F3F3F3">
+
+    <mj-section padding="10px"></mj-section>
+
+      <mj-section padding="20px 20px 0px 20px" background-color="#ffffff">
+        <mj-column>
+
+          <mj-text>
           <p>You have new mail!</p>
-              <p>See your email in <a href="{{orgLink}}">{{orgName}}’s profile</a></p>
-          <p>Have a great day!</p>
-          <p>The CustomerOS Team</p>
-        </mj-text>
-      </mj-column>
-    </mj-section>
+          <p>See your email in <a href="{{orgLink}}">{{orgName}}’s profile</a></p>
+          </mj-text>
+
+
+          <mj-text>
+            <p>Have a great day!</p>
+          </mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="2px 20px 0px 20px" background-color="#ffffff">
+        <mj-column>
+          <mj-text font-size="12px" font-weight="normal" font-family="Barlow, sans-serif" font-weight="400" color="rgb(102, 112, 133)" line-height="32px">
+            Powered by <a href="https://customeros.ai/?utm_content=invoice_footer&utm_medium=invoice_email" style="text-decoration: underline; color: rgb(102, 112, 133);">
+            CustomerOS
+          </a> - GTM for B2B hyperscalers
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
   </mj-body>
 </mjml>
