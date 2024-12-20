@@ -1,0 +1,8 @@
+Hi, here’s your magic link!
+
+Click the link below to log in. This link will only work for 5 minutes.
+
+Log Me In: {{magicLink}}
+
+See you soon!
+Your friends at CustomerOS

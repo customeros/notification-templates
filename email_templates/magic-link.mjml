@@ -1,0 +1,15 @@
+<mjml>
+    <mj-body>
+        <mj-section>
+            <mj-column>
+                <mj-text>Hi, here’s your magic link!</mj-text>
+                <mj-text>Click the button below to log in. This link will only work for 5 minutes.</mj-text>
+                <mj-button href="{{magicLink}}" background-color="#346DB7">
+                    Log me in
+                </mj-button>
+                <mj-text>Have a great day!</mj-text>
+                <mj-text>The CustomerOS Team</mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
