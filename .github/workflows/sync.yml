@@ -20,4 +20,5 @@ jobs:
       - name: Sync files to S3 bucket
         ###### the --delete flag means that any files that exist in S3 but not our templates directory are deleted when the sync happens.
         run: |
-          aws s3 sync email_templates s3://openline-production-mjml-templates --delete
+          aws s3 sync email s3://openline-production-mjml-templates --delete
+
