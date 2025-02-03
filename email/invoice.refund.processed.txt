@@ -1,0 +1,10 @@
+Hi {{userFirstName}},
+
+We have issued a refund for invoice {{invoiceNumber}}. No further action is required.
+
+Attached is the refund confirmation for your records.
+
+Have a great day!
+
+Powered by CustomerOS - Revenue Intelligence for B2B hyperscalers
+https://customeros.ai/?utm_content=invoice_footer&utm_medium=invoice_email
