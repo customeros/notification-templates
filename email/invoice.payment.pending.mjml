@@ -27,15 +27,11 @@
             <mj-column>
                 <mj-image align="left" width="50px" src="cid:provider-logo-file-encoded"></mj-image>
                 <mj-text>
-                    <p>Hi {{organizationName}},</p>
-                    <p>Attached is your invoice for {{currencySymbol}}{{amtDue}}.</p>
-                    <p>You can either <a href="{{paymentLink}}">pay for this online</a> or, if available, use the alternative payment methods provided in the attached invoice.
-                    </p>
+                    <p>Hey {{organizationName}},</p>
+                    <p>We’re confirming our ACH payment request of {{currencySymbol}}{{amtDue}}, which is expected to complete within 3–5 business days. Please make sure there’s enough cash in your account to avoid any hiccups.</p>
+                    <p>A quick heads-up—payments only process on weekdays. If there’s a holiday, it may be delayed until the next business day.</p>
+                    <p>We’ve attached the invoice to this email for you as well.</p>
                 </mj-text>
-
-                <mj-button align="left" href="{{paymentLink}}" background-color="#D0D8DF" color="#344054" padding="0px 20px" css-class="hover-blue">
-                    Pay online
-                </mj-button>
 
                 <mj-text>
                     <p>Have a great day!</p>

@@ -1,0 +1,12 @@
+Hey {{organizationName}},
+
+We’re confirming our ACH payment request of {{currencySymbol}}{{amtDue}}, which is expected to complete within 3–5 business days. Please make sure there’s enough cash in your account to avoid any hiccups.
+
+A quick heads-up—payments only process on weekdays. If there’s a holiday, it may be delayed until the next business day.
+
+We’ve attached the invoice to this email for you as well.
+
+Have a great day!
+
+Powered by CustomerOS - AI Sales Agents for B2B hyperscalers
+https://customeros.ai/?utm_content=invoice_footer&utm_medium=invoice_email
